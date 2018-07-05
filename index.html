@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>MARVEL</title>
+		<meta name="description" content="Website of MARVEL Comics, Movies and TV Series">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="imports/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link href="imports/bootstrap/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="resources/css/styles.css">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="imports/js/modernizr-2.6.2.min.js"></script>
+
+		<!-- Include Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top" id="top_nav">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="/"><img src="images/logo.png" alt="MARVEL"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="box">
+								<a href="#">Home</a>
+							</li>
+
+							<li>
+								<a href="#">Movies</a>
+							</li>
+
+							<li>
+								<a href="#">Comics</a>
+							</li>
+
+							<li>
+								<a href="#">TV</a>
+							</li>
+
+							<li>
+								<a href="#">Games</a>
+							</li>
+
+							<li>
+								<a href="#">Videos</a>
+							</li>
+
+							<li>
+								<a href="#">Latest News</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu" id="shop">
+									<li>
+										<a href="#">Order Printed Copies</a>
+									</li>
+									
+									<li>
+										<a href="#">Digital Comics</a>
+									</li>
+									
+									<li>
+										<a href="#">Action Figures</a>
+									</li>
+
+									<li>
+										<a href="#">Marchendise</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Charecters <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu" id="characters">
+									<li>
+										<a href="#">Ironman</a>
+									</li>
+									
+									<li>
+										<a href="#">Spiderman</a>
+									</li>
+									
+									<li>
+										<a href="#">Captain America</a>
+									</li>
+
+									<li>
+										<a href="#">Thor</a>
+									</li>
+
+									<li>
+										<a href="#">Wolverine</a>
+									</li>
+
+									<li>
+										<a href="#">Hulk</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li>
+						</ul>
+						
+						<form class="navbar-form pull-right">
+							<input type="text" class="form-control" placeholder="Search" id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-left">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Marvel <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Movies</h4>
+							<p>Marvel Cinematic Universe as we know it, kick started on 2008 with Ironman, after 10 years we are in the ending point of phase 3</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>TV Series!</h4>
+							<p>Four of Marvel's biggest heroes are each working individually but have one common goal in mind -- to save New York City.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Comics</h4>
+							<p>A group of both heroes and supervillains charecters are teleported characters against their will to "Battleworld," </p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+
+			<div class="row" id="MCU">
+				<div class="col-12">
+					<div class="well" id="mcu_well">
+						<div class="page-header">
+							<h2>MARVEL CINEMATIC UNIVERSE <small>TEN YEARS OF FANDOM.</small></h2>
+						</div><!-- end page-header -->
+						
+						<p class="lead">Marvel Studios’ 10th Anniversary celebrates a decade of Marvel Studios’ films starting with “Iron Man” released in 2008 through to the “Avengers” untitled film in 2019. Join Disney Movie Rewards in celebrating 10 years of the Marvel Cinematic Universe with special content, trivia, and more </p>
+						
+						<a href="" class="btn btn-large btn-danger" id="alertMe">EXPLORE MCU</a>
+					</div><!-- end well -->
+					
+				</div><!-- end col-12 -->
+			</div><!-- end MCU -->
+			
+
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h3>Ant-Man and The Wasp <small>soon in theatres</small></h3>
+					<p class="lead">In the aftermath of 'Captain America: Civil War,' Scott Lang grapples with the consequences of his choices as both a Super Hero and a father. As he struggles to re-balance his home life with his responsibilities as Ant-Man, he's confronted by Hope van Dyne and Dr. Hank Pym with an urgent new mission. Scott must once again put on the suit and learn to fight alongside The Wasp as the team works together to uncover secrets from their past.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel" id="poster_1">
+						<img src="images/Poster_1.jpg" alt="Poster_1" class="img-circle">
+						
+						<p>Catch Antman and Wasp in your nearest theatres on July 7!</p>
+						
+						<a href="https://in.bookmyshow.com/bengaluru/movies/ant-man-and-the-wasp/ET00069345" target="_blank" class="btn btn-primary btn-block">Book Tickets</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-8 feature">
+					<div class="panel" id="poster_2">
+						<img src="images/poster_2.jpg" alt="poster_2" class="img-circle">
+						
+						<a href="https://www.youtube.com/watch?v=FEWeV2_MAWg" target="_blank" class="btn btn-danger btn-block">Watch Triler</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div>
+			<div class="row" id="moviesHeading">
+				<div class="col-12">
+					<h2>Recent Movies</h2>
+				</div><!-- end col-12 -->
+			</div><!-- end moviesHeading -->
+			
+			
+			<div class="row" id="movies">
+				<div class="col-sm-4 feature" id="movie_col_1">
+					<div class="panel" id="movie_1">
+						<div class="panel-heading" id="movie_title_1">
+							<h3 class="panel-title">Avengers: Infinity War</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/movie_1.jpg" alt="movie_1">
+						
+						<p>Iron Man, Captain America, Thor, the Hulk and the rest of the Avengers and the Guardians of the Galaxy unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Avengers:_Infinity_War" target="_blank" class="btn btn-primary btn-block">Know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature" id="movie_col_2">
+					<div class="panel" id="movie_2">
+						<div class="panel-heading" id="movie_title_2">
+							<h3 class="panel-title">Black Panther</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/movie_2.jpg" alt="Movie_2">
+						
+						<p>After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk.</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Black_Panther_(film)" target="_blank" class="btn btn-primary btn-block">Know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature" id="movie_col_3">
+					<div class="panel" id="movie_3">
+						<div class="panel-heading" id="movie_title_1">
+							<h3 class="panel-title">Thor: Ragnarok</h3>
+						</div><!-- end panel-heading -->
+						<img src="images/movie_3.jpg" alt="Movie_3">
+						
+						<p>Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger. Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization.</p>
+						
+						<a href="https://en.wikipedia.org/wiki/Thor:_Ragnarok" target="_blank" class="btn btn-primary btn-block">Know more</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+			<div class="row" id="tvHeading">
+				<div class="col-12">
+					<h2>TV Shows</h2>
+				</div><!-- end col-12 -->
+			</div><!-- end moviesHeading -->
+
+			<div class="carousel slide" id="myCarousel_tv">
+			  <!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel_tv"></li>
+					<li data-slide-to="2" data-target="#myCarousel_tv"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1_tv">
+						<div class="row">
+							<div class="col-sm-8 feature">
+								<img src="images/tv_1.jpg" alt="tv_1">
+							</div><!-- end feature -->
+				
+							<div class="col-sm-4 feature">
+								<h3>Marvel Daredevil</h3>
+								<p>The first in a planned series of shows detailing the Marvel universe, "Daredevil" follows Matt Murdock, attorney by day and vigilante by night. Blinded in an accident as a child, Murdock uses his heightened senses as Daredevil to fight crime on the streets of New York after the sun goes down. While Murdock's day job requires him to believe in the criminal justice system, his alter ego does not follow suit, leading him to take the law into his own hands to protect his Hell's Kitchen neighborhood and the surrounding communities.</p>
+								<a href="https://www.netflix.com/signup" target="_blank" class="btn btn-danger btn-block">Subscribe to Netflix</a>
+							</div><!-- end feature -->
+						</div>
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2_tv">
+						<div class="row">
+							<div class="col-sm-8 feature">
+								<img src="images/tv_2.jpg" alt="tv_1">
+							</div><!-- end feature -->
+				
+							<div class="col-sm-4 feature">
+								<h3>Marvel The Punisher</h3>
+								<p>After exacting revenge on the people responsible for the deaths of his wife and children, Frank Castle uncovers a conspiracy that runs deeper than New York's criminal underworld. Now known as the Punisher, he must dig deep into the conspiracy to discover the truth about injustices that affect more than just him and his family. Assisting the vigilante in his quest to fight criminals are best friend Billy Russo, who runs private military corporation Anvil, and former NSA analyst Micro, who shares common enemies with Castle and helps him as part of a so-called marriage of convenience.</p>
+								<a href="https://www.netflix.com/signup" target="_blank" class="btn btn-danger btn-block">Subscribe to Netflix</a>
+							</div><!-- end feature -->
+						</div>
+						
+					</div><!-- end item -->
+
+					<div class="item" id="slide2_tv">
+						<div class="row">
+							<div class="col-sm-8 feature">
+								<img src="images/tv_3.jpg" alt="tv_1">
+							</div><!-- end feature -->
+				
+							<div class="col-sm-4 feature">
+								<h3>Marvel Jessica Jones</h3>
+								<p>This Netflix original chronicles the life of one of the darker Marvel characters, the mysterious Jessica Jones. When a tragedy puts an end to her short-lived career as a superhero, Jessica settles in New York City and opens her own detective agency, called Alias Investigations, which seems to be called into cases involving people who have special abilities. Suffering from post-traumatic stress syndrome, Jessica wants to do good, but her primary interest isn't in saving the world, it's saving her apartment and getting through each day. Based on a graphic novel intended for adults, this is not a superhero story for the kids.</p>
+								<a href="https://www.netflix.com/signup" target="_blank" class="btn btn-danger btn-block">Subscribe to Netflix</a>
+							</div><!-- end feature -->
+						</div>
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel_tv"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel_tv"><span class="icon-next"></span></a>
+			</div><!-- end myCarousel -->
+			<div class="row" id="comics">
+				<div class="col-sm-12">
+					<h3>Comics</h3>
+						<div class="tabbable">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+								<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+								<li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+								<li><a href="#tab4" data-toggle="tab">Section 4</a></li>
+								<li><a href="#tab5" data-toggle="tab">Section 5</a></li>
+								<li><a href="#tab6" data-toggle="tab">Section 6</a></li>
+								<li><a href="#tab7" data-toggle="tab">Section 7</a></li>
+								<li><a href="#tab8" data-toggle="tab">Section 8</a></li>
+								<li><a href="#tab9" data-toggle="tab">Section 9</a></li>
+								<li><a href="#tab10" data-toggle="tab">Section 10</a></li>
+								<li><a href="#tab11" data-toggle="tab">Section 11</a></li>
+								<li><a href="#tab12" data-toggle="tab">Section 12</a></li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_1.jpg" alt="comic_1">
+										</div><!-- end feature -->
+				
+										<div class="col-sm-8 feature">
+											<h1>CAPTAIN AMERICA (2018) #1</h1>
+												<div class="info">
+													<ul>
+														<li>Published: July 04, 2018</li>
+														<li>Rating: Rated T+</li>
+														<li>Writer: Ta-​Nehisi Coates</li>
+														<li>Penciler: Leinil Francis Yu</li>
+													</ul>
+												</div>
+											<p>IT IS WINTER IN AMERICA.For over 70 years, he has stood in stalwart defense of our country and its people. But in the aftermath of Hydra’s takeover of the nation, Captain America is a figure of controversy, carrying a tarnished shield…and a new enemy is rising! Who are the Power Elite? And how do they intend to co-opt and corrupt the symbol that is Captain America?</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab2">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_2.jpg" alt="comic_2">
+										</div><!-- end feature -->
+				
+										<div class="col-sm-8 feature">
+											<h1>COSMIC GHOST RIDER (2018) #1</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Donny Cates</li>
+													<li>Penciler: Dylan Burnett </li>
+													<li>Cover Artist: Geoffrey Shaw </li>
+												</ul>
+											</div>
+											<p>EXPLODING FROM THE PAGES OF THANOS! Frank Castle was the Punisher. A deal with the devil made him Ghost Rider. A deal with Galactus made him cosmic. A deal with Thanos made him…DEAD?!? Not to worry, he’s coming back, and he’s got a plan to make the universe a better place that’s going to lead him into an even CRAZIER adventure than he’s ever been in! Join hot new comic (and cosmic?) writer Donny Cates (THANOS, DOCTOR STRANGE) as he pushes his wildest creation past the breaking point!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab3">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_3.jpg" alt="comic_3">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>DOCTOR STRANGE (2018) #3</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Mark Waid</li>
+													<li>Penciler: Jesus Saiz</li>
+													<li>Cover Artist: Jesus Saiz</li>
+												</ul>
+											</div>
+											<p>INFINITY WARS IGNITES! When Earth’s magic dried up for him, Doctor Strange took to the stars. He expected to find alien sorcerers and magical artifacts, not one of the INFINITY STONES! The Super-Skrull has the Time Stone, and Doctor Strange can’t let him keep it!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab4">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_4.jpg" alt="comic_4">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>DEATH OF INHUMANS (2018) #1</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Donny Cates</li>
+													<li>Penciler: Ariel Olivetti</li>
+													<li>Cover Artist: Kaare Andrews</li>
+												</ul>
+											</div>
+											<p>THE TITLE SAYS IT ALL – HERE LIE THE INHUMANS. The Kree have gone murdering, leaving behind a message: Join or die. Thousands of Inhumans have already made their choice — the evidence floats bleeding in space. Black Bolt and his family are next. Rising star Donny Cates and PUNISHER: WAR JOURNAL artist Ariel Olivetti bring their brutal talents to the Inhumans! </p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab5">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_5.jpg" alt="comic_5">
+										</div><!-- end feature -->
+				
+										<div class="col-sm-8 feature">
+											<h1>DEADPOOL (2018) #2</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Parental Advisory</li>
+													<li>Writer: Skottie Young</li>
+													<li>Penciler: Nic Klein</li>
+													<li>Cover Artist: Nic Klein</li>
+												</ul>
+											</div>
+											<p>IT IS WINTER IN AMERICA.For over 70 years, he has stood in stalwart defense of our country and its people. But in the aftermath of Hydra’s takeover of the nation, Captain America is a figure of controversy, carrying a tarnished shield…and a new enemy is rising! Who are the Power Elite? And how do they intend to co-opt and corrupt the symbol that is Captain America?</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab6">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_6.jpg" alt="comic_6">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>IMMORTAL HULK (2018) #2</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Al Ewing</li>
+													<li>Penciler: Joe Bennett </li>
+													<li>Cover Artist: Alex Ross</li>
+												</ul>
+											</div>
+											<p>A random small-town tragedy. A mystery illness that spreads with grief. A green glow on a lonely mountain. Three puzzle pieces that fit together to make a nightmare. And the only mind on Earth than can connect them up…belongs to the Immortal Hulk</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab7">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_7.jpg" alt="comic_7">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>INFINITY COUNTDOWN: CHAMPIONS (2018) #2</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Jim Zub</li>
+													<li>Penciler: Emilio Laiso</li>
+													<li>Cover Artist: Clayton Crain</li>
+												</ul>
+											</div>
+											<p>CHAMPIONS…OF THE CHITAURI? Nova and the Champions fighting for Thanos? Strange allies abound and sacrifices will be made...One of these young heroes is about to lose everything.</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab8">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_8.jpg" alt="comic_8">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>ANT-MAN & THE WASP (2018) #3</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Mark Waid</li>
+													<li>Penciler: Javier Garron</li>
+													<li>Cover Artist: David Nakayama</li>
+												</ul>
+											</div>
+											<p>The Wasp and Ant-Man are trapped in the Microverse, which sucks for them. Know who it’s even worse for? The even more tiny people our heroes can’t help but threaten by their very existence!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab9">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_9.jpg" alt="comic_9">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>HUNT FOR WOLVERINE: WEAPON LOST (2018) #3</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Parental Advisory</li>
+													<li>Writer: Charles Soule</li>
+													<li>Penciler: Matteo Buffagni</li>
+													<li>Cover Artist: Giuseppe Camuncoli</li>
+												</ul>
+											</div>
+											<p>FRESH BLOOD IN THE WILDS OF CANADA! Deep in Logan’s home country, Daredevil and his investigative team have tracked the most recent reports of his appearances…straight to the tips of his still bloody claws!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab10">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_10.jpg" alt="comic_10">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>AVENGERS (2018) #4</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Jason Aaron</li>
+													<li>Penciler: Paco Medina, Ed Mcguinness</li>
+													<li>Cover Artist: Ed Mcguinness</li>
+												</ul>
+											</div>
+											<p>How do the Avengers possibly defeat a crew of 2,000-foot-tall, nearly omnipotent Dark Celestials bent on annihilating the human race? While Thor and Hulk search for answers deep within the bowels of Old Asgard, we learn more about the untold history of Odin and his Prehistoric Avengers!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab11">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+												<img src="images/comic_11.jpg" alt="comic_11">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>ASTONISHING X-MEN (2017) #13</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Ed Brisson, Matthew Rosenberg</li>
+													<li>Penciler: Oscar Bazaldua, Greg Land</li>
+													<li>Cover Artist: Greg Land </li>
+												</ul>
+											</div>
+											<p>A NEW ERA BEGINS NOW! The Reavers are back, and they have a new weapon that only Havok knows about. It’s going to take a ragtag group of X-Men to save a world that hates and fears them! But after his villainous turn, can any of the X-Men really trust him? Can he blame them? Havok! Beast! Dazzler! Warpath! Colossus! It’s an all-new, all-different kind of X-Men story from the minds of Matthew Rosenberg (PUNISHER) and Greg Land (INCREDIBLE HULK)!</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+								<div class="tab-pane" id="tab12">
+									<h4><span class="glyphicon glyphicon-book"></span> Latest Issues</h4>
+									<div class="row">
+										<div class="col-sm-4 feature">
+											<img src="images/comic_12.jpg" alt="comic_12">
+										</div><!-- end feature -->
+										<div class="col-sm-8 feature">
+											<h1>SPIDER-MAN/DEADPOOL (2016) #35</h1>
+											<div class="info">
+												<ul>
+													<li>Published: July 04, 2018</li>
+													<li>Rating: Rated T+</li>
+													<li>Writer: Robbie Thompson</li>
+													<li>Penciller: Matt Horak, Scott Hepburn</li>
+													<li>Cover Artist: Dave Johnson</li>
+												</ul>
+											</div>
+											<p>The Master Matrix has been unearthed as well as all the secrets of S.H.I.E.L.D.’s LMD program…At the heart of this program were MARY AND RICHARD PARKER, A.K.A., The Amazing Spider-Parents. Just when you thought you could trust that two people were without blemish, Deadpool somehow ruins them, too.</p>
+										</div><!-- end feature -->
+									</div>
+								</div><!-- end tab-pane -->
+							</div><!-- end tab-content -->
+						</div><!-- end tabbable -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2" id="copyright">
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt="MARVEL"></a>
+						<h6>Copyright &copy; 2018</h6>
+					</div><!-- end col-sm-2 -->
+					<div class="col-sm-4">
+						<h6>About Marvel</h6>
+						<p>Marvel Comics is the common name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.Marvel started in 1939 as Timely Publications, and by the early 1950s, had generally become known as Atlas Comics. The Marvel branding began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko, and many others.</p>
+					</div><!-- end col-sm-4 -->
+					<div class="col-sm-2" id="bottom_nav">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Movies</a></li>
+							<li><a href="#">TV</a></li>
+							<li><a href="#">Comics</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					<div class="col-sm-2" id="social">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+							<li><a href="#"><img src="images/facebook.png" alt="twitter"></a></li>
+							<li><a href="#"><img src="images/youtube.png" alt="twitter"></a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					<div class="col-sm-2" id="bottom_img">
+						<img src="images/ironman.png" alt="ironman">
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+
+		<!-- Include Javascripts -->
+		
+		<!-- Online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+	
+		<!-- Hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="imports/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+		<!-- Bootstrap JS -->
+		<script src="imports/js/bootstrap.min.js"></script>
+	
+		<!-- Custom JS -->
+		<script src="imports/js/script.js"></script>
+	</body>
+</html>
